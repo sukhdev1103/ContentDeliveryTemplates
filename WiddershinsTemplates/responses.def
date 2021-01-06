@@ -84,7 +84,7 @@ Status Code **{{=response.status}}**
 {{? data.responseSchemas }}
 ### Example response body
 
-{{= data.utils.getExternalResponseExamples(data) }}
+{{= data.utils.getResponseExamples(data) }}
 {{?}}
 
 {{= data.tags.endSection }}
