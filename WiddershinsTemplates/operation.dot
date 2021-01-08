@@ -25,7 +25,7 @@
 {{? data.operation.requestBody}}
 ### Request Body
 {{? data.parameters && data.parameters.length }}
-{{~ data.parameters :p}}{{? p.name == 'body'}}{{=p.safeType}}: {{=p.shortDesc}}<br/>{{?}}
+{{~ data.parameters :p}}{{? p.name == 'body'}}{{=p.shortDesc}}<br/>{{?}}
 {{~}}
 {{?}}
 
